@@ -1,17 +1,37 @@
-function MenuButtons() {
+function MenuButtons({ content, setContent }) {
   return (
     <div className=" h-12  menuBorder flex justify-evenly menuborder">
-      <div className="h-full flex justify-center bg-darkerblue items-center w-24">
+      <div
+        className="h-full flex justify-center  items-center w-24 sideborder transition-all bg-none hover:bg-lavander cursor-pointer"
+        onClick={() => {
+          setContent("Home");
+        }}
+      >
         Home
       </div>
-      <div className="h-full flex justify-center bg-darkerblue items-center w-24">
+      <div
+        className="h-full flex justify-center  items-center w-24 sideborder transition-all bg-none hover:bg-lavander cursor-pointer"
+        onClick={() => {
+          setContent("About");
+        }}
+      >
         About
       </div>
-      <div className="h-full flex justify-center bg-darkerblue items-center w-24">
-        References
+      <div
+        className="h-full flex justify-center  items-center w-24 sideborder transition-all bg-none hover:bg-lavander cursor-pointer"
+        onClick={() => {
+          setContent("Creators");
+        }}
+      >
+        Creators
       </div>
-      <div className="h-full flex justify-center bg-darkerblue items-center w-24">
-        Projects
+      <div
+        className="h-full flex justify-center items-center w-24 sideborder transition-all bg-none hover:bg-lavander cursor-pointer"
+        onClick={() => {
+          setContent("References");
+        }}
+      >
+        References
       </div>
     </div>
   );

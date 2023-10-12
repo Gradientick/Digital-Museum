@@ -3,11 +3,10 @@ export default {
   content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
   theme: {
     colors: {
-      darkestblue: "#053B50",
-      darkerblue: "#176B87",
-      lightblue: "#64CCC5",
-      white: "#EEEEEE",
-      hightext: "#22668D",
+      lavander: "#a5a3cf",
+      whiteset: "#EEEEEE",
+      develop: "#FFCF96",
+      black: "#232D3F",
     },
   },
   plugins: [],
