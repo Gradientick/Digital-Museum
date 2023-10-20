@@ -2,7 +2,7 @@ import HomeContent from "../content/HomeContent";
 import AboutContent from "../content/AboutContent";
 import CreatorsContent from "../content/CreatorsContent";
 import ReferencesContent from "../content/ReferencesContent";
-function Content({ content, setContent }) {
+function Content({ content }) {
   switch (content) {
     case "Home":
       return <HomeContent />;
