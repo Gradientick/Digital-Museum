@@ -1,6 +1,7 @@
 import Footer from "../components/footer";
-
+import { useNavigate } from "react-router-dom";
 function HomeContent() {
+  const navigate = useNavigate();
   return (
     <div className=" bg-whiteset h-4/5">
       <div className="flex flex-col items-center p-20  gap-1">
@@ -10,7 +11,10 @@ function HomeContent() {
         </p>
       </div>
       <div className="flex justify-evenly bg-whiteset h-3/5">
-        <div className="h-5/6 w-2/12 shadow-none justify-center items-center relative transition-all hover:shadow-2xl hover:cursor-pointer">
+        <div
+          className="h-5/6 w-2/12 shadow-none justify-center items-center relative transition-all hover:shadow-2xl hover:cursor-pointer"
+          onClick={() => navigate("/2000-2003")}
+        >
           <img
             src="../../images/pacman.jpg"
             alt="image of Manny Pacquiao"
@@ -20,7 +24,10 @@ function HomeContent() {
             2000 - 2003
           </h1>
         </div>
-        <div className="h-5/6 w-2/12 shadow-none justify-center items-center relative transition-all hover:shadow-2xl hover:cursor-pointer">
+        <div
+          className="h-5/6 w-2/12 shadow-none justify-center items-center relative transition-all hover:shadow-2xl hover:cursor-pointer"
+          onClick={() => navigate("/2004-2006")}
+        >
           <img
             src="../../images/jejejeje-gang.jpg"
             alt="image of jeje gang"
@@ -30,7 +37,10 @@ function HomeContent() {
             2004 - 2006
           </h1>
         </div>
-        <div className="h-5/6 w-2/12 shadow-none justify-center items-center relative transition-all hover:shadow-2xl hover:cursor-pointer">
+        <div
+          className="h-5/6 w-2/12 shadow-none justify-center items-center relative transition-all hover:shadow-2xl hover:cursor-pointer"
+          onClick={() => navigate("/2007-2010")}
+        >
           <img
             src="../../images/bpo2.jpg"
             alt="image showing people working in the BPO industry"
