@@ -1,13 +1,15 @@
 function AboutContent() {
   return (
-    <div className="bg-whiteset h-5/6 flex flex-col items-center">
-      <div className="flex flex-col items-center p-20  gap-">
+    <div className="bg-whiteset h-auto flex flex-col items-center">
+      <div className="flex flex-col items-center p-20">
         <h1 className="font-serif  text-5xl font-medium">About</h1>
         <p className="font-light text-lg">Discover the Story of Our Museum</p>
       </div>
-      <div className=" bg-whiteset w-4/6 h-full p-3 shadow-xl">
+      <div className=" bg-whiteset w-4/6 h-full p-3 shadow-xl m-5">
         <div className="font-light flex flex-col gap-2">
-          <h1 className="font-medium text-xl">About Our Museum</h1>
+          <h1 className="font-medium text-2xl">
+            <span className="text-3xl font-bold">A</span>bout Our Museum
+          </h1>
           <p>
             Welcome to our museum, where we take you on a nostalgic journey
             through the exciting and transformative period from the 2000s to
@@ -69,12 +71,6 @@ function AboutContent() {
             indelible mark on our collective memories.
           </p>
         </div>
-      </div>
-      <div className="bg-black text-whiteset">
-        <p className=" text-base m-14">
-          Step into the past, relive the 2000s, and embrace nostalgia with
-          Digital Museum. © 2023 Digital Museum. All Rights Reserved.
-        </p>
       </div>
     </div>
   );

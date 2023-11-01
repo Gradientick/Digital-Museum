@@ -1,7 +1,3 @@
-import React from "react";
-import CreatorSlider from "./CreatorSlider";
-import Footer from "../components/footer";
-
 function CreatorsContent() {
   return (
     <div className="bg-whiteset h-4/5">
@@ -12,9 +8,9 @@ function CreatorsContent() {
       <div className="flex justify-evenly m-5">
         <div className="h-5/6 w-2/12 justify-center items-center flex flex-col p-3 rounded-sm gap-2 transition-all shadow-2xl hover:cursor-pointer">
           <img
-            src="../../images/pacman.jpg"
+            src="../../creatorimages/luis.jpg"
             alt="image of Manny Pacquiao"
-            className="h-full w-full brightness-50"
+            className=""
           />
           <h1 className=" text-black text-2xl ">Luis Camus</h1>
         </div>
@@ -35,7 +31,6 @@ function CreatorsContent() {
           <h1 className=" text-black text-2xl ">Jaypee Marquez</h1>
         </div>
       </div>
-      <Footer />
     </div>
   );
 }

@@ -1,7 +1,4 @@
-import Footer from "../components/footer";
-import { useNavigate } from "react-router-dom";
-function HomeContent() {
-  const navigate = useNavigate();
+function HomeContent({ content, setContent }) {
   return (
     <div className=" bg-whiteset h-4/5">
       <div className="flex flex-col items-center p-20  gap-1">
@@ -13,7 +10,7 @@ function HomeContent() {
       <div className="flex justify-evenly bg-whiteset h-3/5">
         <div
           className="h-5/6 w-2/12 shadow-none justify-center items-center relative transition-all hover:shadow-2xl hover:cursor-pointer"
-          onClick={() => navigate("/2000-2003")}
+          onClick={() => setContent("2000-2003")}
         >
           <img
             src="../../images/pacman.jpg"
@@ -26,7 +23,7 @@ function HomeContent() {
         </div>
         <div
           className="h-5/6 w-2/12 shadow-none justify-center items-center relative transition-all hover:shadow-2xl hover:cursor-pointer"
-          onClick={() => navigate("/2004-2006")}
+          onClick={() => setContent("2004-2006")}
         >
           <img
             src="../../images/jejejeje-gang.jpg"
@@ -39,7 +36,7 @@ function HomeContent() {
         </div>
         <div
           className="h-5/6 w-2/12 shadow-none justify-center items-center relative transition-all hover:shadow-2xl hover:cursor-pointer"
-          onClick={() => navigate("/2007-2010")}
+          onClick={() => setContent("2007-2010")}
         >
           <img
             src="../../images/bpo2.jpg"
@@ -51,7 +48,6 @@ function HomeContent() {
           </h1>
         </div>
       </div>
-      <Footer />
     </div>
   );
 }
