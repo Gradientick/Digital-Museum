@@ -16,7 +16,7 @@ function Content({ content, setContent }) {
     case "References":
       return <ReferencesContent />;
     case "2000-2003":
-      return <First />;
+      return <First content={content} setContent={setContent} />;
     case "2004-2006":
       return <Second />;
     case "2007-2010":

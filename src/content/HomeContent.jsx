@@ -26,7 +26,7 @@ function HomeContent({ content, setContent }) {
           onClick={() => setContent("2004-2006")}
         >
           <img
-            src="../../images/jejejeje-gang.jpg"
+            src="../../images/Encantadia.jpg"
             alt="image of jeje gang"
             className="h-full brightness-50"
           />

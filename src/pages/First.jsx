@@ -1,4 +1,4 @@
-function First() {
+function First({ content, setContent }) {
   return (
     <div className=" bg-whiteset">
       <div className="flex flex-col items-center p-20 gap-1">
@@ -11,7 +11,7 @@ function First() {
       </div>
       <div className="flex flex-col gap-5">
         <div className="flex justify-evenly bg-whiteset h-3/5">
-          <div className="h-5/6 w-2/12 shadow-none justify-center items-center relative transition-all hover:shadow-2xl hover:cursor-pointer">
+          <div className="h-5/6 w-2/12 shadow-none justify-center items-center relative transition-all ">
             <img
               src="../../images/pacman.jpg"
               alt="image of Manny Pacquiao"
@@ -94,6 +94,41 @@ function First() {
               world.
             </p>
           </div>
+        </div>
+        <div className="flex flex-col justify-center items-center m-9 gap-7">
+          <h1 className="font-serif  text-2xl font-medium">
+            Fame of Sexbomb Girls
+          </h1>
+          <div className="flex justify-evenly">
+            <img
+              src="../../images/sexbomb.png"
+              alt="a photo of sexbomb girls"
+              className="h-auto w-1/5"
+            />
+            <p className=" w-2/5">
+              The SexBomb Girls were more than just a dance group; they were a
+              cultural phenomenon that reshaped the landscape of Philippine
+              popular culture during the early 2000s. With their captivating
+              performances, infectious dance moves, and magnetic presence, they
+              became a source of joy and empowerment for Filipinos of all ages.
+              The SexBomb Girls not only brought their unique brand of
+              entertainment to the stage but also transcended it, using their
+              platform to inspire and empower women across the country. They
+              became symbols of confidence, talent, and camaraderie, showing
+              that women could take center stage and shine in a male-dominated
+              industry. Their influence extended beyond the entertainment world,
+              leaving a lasting legacy that celebrates the spirit of fun,
+              empowerment, and unity. The SexBomb Girls are a testament to the
+              power of art and entertainment to shape and reflect the culture of
+              a nation.
+            </p>
+          </div>
+        </div>
+        <div
+          className=" bg-lavander flex justify-center transition-all text-black hover:text-whiteset hover:cursor-pointer hover:bg-black"
+          onClick={() => setContent("2004-2006")}
+        >
+          <div className="m-2">Explore: 2004 - 2006</div>
         </div>
       </div>
     </div>
