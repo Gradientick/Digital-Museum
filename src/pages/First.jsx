@@ -124,9 +124,36 @@ function First({ content, setContent }) {
             </p>
           </div>
         </div>
+        <div className="flex flex-col justify-center items-center m-9 gap-7">
+          <p className="w-4/5">
+            As we bid farewell to the years 2000 to 2003, we leave behind a
+            trail of innovation, cultural shifts, and memorable figures that
+            have indelibly marked this era. The early 2000s were a time of
+            transition, ushering us into the digital age while embracing the
+            vibrancy of diverse cultural phenomena. From the iconic rise of
+            Manny Pacquiao to the virtual camaraderie fostered by Friendster,
+            these years encapsulated the spirit of change and connection. The
+            surge in mobile phone adoption reshaped the Filipino experience,
+            bridging geographical gaps and opening doors to newfound
+            opportunities. Meanwhile, the infectious performances of the SexBomb
+            Girls not only entertained but inspired, leaving an enduring legacy
+            of empowerment and unity. As we move forward in our journey through
+            the decades, let's carry with us the lessons and memories of the
+            early 2000s—a period that laid the foundation for the dynamic and
+            interconnected world we live in today. Stay tuned as we unravel more
+            chapters of the past and continue our exploration of the rich
+            tapestry of 2000s to 2010 popular culture.
+          </p>
+        </div>
         <div
           className=" bg-lavander flex justify-center transition-all text-black hover:text-whiteset hover:cursor-pointer hover:bg-black"
-          onClick={() => setContent("2004-2006")}
+          onClick={() => {
+            window.scrollTo({
+              top: 0,
+              behavior: "smooth",
+            });
+            setContent("2004-2006");
+          }}
         >
           <div className="m-2">Explore: 2004 - 2006</div>
         </div>

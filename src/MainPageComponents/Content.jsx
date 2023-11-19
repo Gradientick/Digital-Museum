@@ -18,9 +18,9 @@ function Content({ content, setContent }) {
     case "2000-2003":
       return <First content={content} setContent={setContent} />;
     case "2004-2006":
-      return <Second />;
+      return <Second content={content} setContent={setContent} />;
     case "2007-2010":
-      return <Third />;
+      return <Third content={content} setContent={setContent} />;
   }
   // return <div className=" bg-develop h-4/5">Content</div>;
 }
