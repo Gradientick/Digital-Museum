@@ -8,11 +8,13 @@ function CreatorsContent() {
       <div className="flex justify-evenly m-5">
         <div className="h-5/6 w-2/12 justify-center items-center flex flex-col p-3 rounded-sm gap-2 transition-all shadow-2xl hover:cursor-pointer">
           <img
-            src="../../creatorimages/luis.jpg"
-            alt="image of Manny Pacquiao"
-            className=""
+            src="../../creatorimages/luis.png"
+            alt="image of Luis Camus"
+            className="h-full w-full"
           />
+
           <h1 className=" text-black text-2xl ">Luis Camus</h1>
+          {/* <h1 className=" text-black text-2xl ">Camus</h1> */}
         </div>
         <div className="h-5/6 w-2/12 justify-center items-center flex flex-col p-3 rounded-sm gap-2 transition-all shadow-2xl hover:cursor-pointer">
           <img
