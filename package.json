@@ -2,7 +2,7 @@
   "name": "digital-museum",
   "private": true,
   "version": "0.0.0",
-  "homepage": "https://github.com/Gradientick/Digital-Museum",
+  "homepage": "https://gradientick.github.io/Digital-Museum",
   "type": "module",
   "scripts": {
     "dev": "vite",
