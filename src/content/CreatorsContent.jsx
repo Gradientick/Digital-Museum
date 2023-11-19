@@ -16,17 +16,17 @@ function CreatorsContent() {
         </div>
         <div className="h-5/6 w-2/12 justify-center items-center flex flex-col p-3 rounded-sm gap-2 transition-all shadow-2xl hover:cursor-pointer">
           <img
-            src="../../images/pacman.jpg"
-            alt="image of Manny Pacquiao"
-            className="h-full w-full brightness-50"
+            src="../../creatorimages/ab.png"
+            alt="image of Abegail Clemente"
+            className="h-full w-full "
           />
           <h1 className=" text-black text-2xl ">Abegail Clemente</h1>
         </div>
         <div className="h-5/6 w-2/12  justify-center items-center flex flex-col p-3 rounded-sm gap-2 transition-all shadow-2xl hover:cursor-pointer">
           <img
-            src="../../images/pacman.jpg"
-            alt="image of Manny Pacquiao"
-            className="h-full w-full brightness-50"
+            src="../../creatorimages/jp.png"
+            alt="image of Jaypee Marquez"
+            className="h-full w-full "
           />
           <h1 className=" text-black text-2xl ">Jaypee Marquez</h1>
         </div>
