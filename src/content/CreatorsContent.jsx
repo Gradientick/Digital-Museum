@@ -8,7 +8,7 @@ function CreatorsContent() {
       <div className="flex justify-evenly m-5">
         <div className="h-5/6 w-2/12 justify-center items-center flex flex-col p-3 rounded-sm gap-2 transition-all shadow-2xl hover:cursor-pointer">
           <img
-            src="../../creatorimages/luis.png"
+            src="src/creatorimages/luis.png"
             alt="image of Luis Camus"
             className="h-full w-full"
           />
@@ -18,7 +18,7 @@ function CreatorsContent() {
         </div>
         <div className="h-5/6 w-2/12 justify-center items-center flex flex-col p-3 rounded-sm gap-2 transition-all shadow-2xl hover:cursor-pointer">
           <img
-            src="../../creatorimages/ab.png"
+            src="src/creatorimages/ab.png"
             alt="image of Abegail Clemente"
             className="h-full w-full "
           />
@@ -26,7 +26,7 @@ function CreatorsContent() {
         </div>
         <div className="h-5/6 w-2/12  justify-center items-center flex flex-col p-3 rounded-sm gap-2 transition-all shadow-2xl hover:cursor-pointer">
           <img
-            src="../../creatorimages/jp.png"
+            src="src/creatorimages/jp.png"
             alt="image of Jaypee Marquez"
             className="h-full w-full "
           />

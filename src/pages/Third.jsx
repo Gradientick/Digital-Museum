@@ -24,7 +24,7 @@ function First({ content, setContent }) {
           </div>
           <div className="h-5/6 w-2/12 shadow-none justify-center items-center relative transition-all ">
             <img
-              src="../../images/waxing.jpg"
+              src="src/images/waxing.jpg"
               alt="image of brazilian waxing"
               className="h-full w-full "
             />
@@ -52,7 +52,7 @@ function First({ content, setContent }) {
           </div>
           <div className="h-5/6 w-2/12 shadow-none justify-center items-center relative transition-all ">
             <img
-              src="../../images/opmartist.jpg"
+              src="src/images/opmartist.jpg"
               alt="image of glock 9"
               className="h-full w-full"
             />
@@ -73,8 +73,8 @@ function First({ content, setContent }) {
           </div>
           <div className="h-5/6 w-2/12 shadow-none justify-center items-center relative transition-all ">
             <img
-              src="../../images/comshop.jpg"
-              alt="image of Manny Pacquiao"
+              src="src/images/comshop.jpg"
+              alt="image of comshop"
               className="h-full w-full "
             />
           </div>

@@ -11,7 +11,7 @@ function Second({ content, setContent }) {
       </div>
       <div className="flex flex-col items-center gap-6 m-6">
         <img
-          src="../../images/filipino-fashion.jpg"
+          src="src/images/filipino-fashion.jpg"
           alt="an image of the jejemon gang"
           className=" w-1/5 h-auto"
         />
@@ -26,7 +26,7 @@ function Second({ content, setContent }) {
       </div>
       <div className="flex flex-col items-center gap-6 m-6">
         <img
-          src="../../images/Encantadia.jpg"
+          src="src/images/Encantadia.jpg"
           alt="an image of the jejemon gang"
           className=" w-2/5 h-auto"
         />
@@ -42,7 +42,7 @@ function Second({ content, setContent }) {
       </div>
       <div className="flex flex-col items-center gap-6 m-6">
         <img
-          src="../../images/iphone.jpg"
+          src="src/images/iphone.jpg"
           alt="Photo of an iphone"
           className=" w-1/5 h-auto"
         />

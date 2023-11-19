@@ -13,7 +13,7 @@ function First({ content, setContent }) {
         <div className="flex justify-evenly bg-whiteset h-3/5">
           <div className="h-5/6 w-2/12 shadow-none justify-center items-center relative transition-all ">
             <img
-              src="../../images/pacman.jpg"
+              src="src/images/pacman.jpg"
               alt="image of Manny Pacquiao"
               className="h-full w-full "
             />
@@ -49,7 +49,7 @@ function First({ content, setContent }) {
             Introduction of Friendster
           </h1>
           <div className="flex justify-evenly">
-            <img src="../../images/Friendster.jpg" alt="image of Friendster" />
+            <img src="src/images/Friendster.jpg" alt="image of Friendster" />
             <div className=" w-2/5">
               <p>
                 Friendster, the pioneering social networking platform that
@@ -74,7 +74,7 @@ function First({ content, setContent }) {
             Increase In Mobile Phone Adoption Throughout The Philippines
           </h1>
           <div className="flex justify-evenly">
-            <img src="../../images/mobilephone.jpg" alt="" />
+            <img src="src/images/mobilephone.jpg" alt="" />
             <p className=" w-2/5">
               The 2000s witnessed a remarkable surge in mobile phone adoption
               throughout the Philippines, reshaping the way people communicated
@@ -101,7 +101,7 @@ function First({ content, setContent }) {
           </h1>
           <div className="flex justify-evenly">
             <img
-              src="../../images/sexbomb.png"
+              src="src/images/sexbomb.png"
               alt="a photo of sexbomb girls"
               className="h-auto w-1/5"
             />
