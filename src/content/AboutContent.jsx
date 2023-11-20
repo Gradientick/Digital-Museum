@@ -72,6 +72,17 @@ function AboutContent() {
           </p>
         </div>
       </div>
+      <div
+        className=" bg-lavander flex justify-center w-full transition-all text-black hover:text-whiteset hover:cursor-pointer hover:bg-black"
+        onClick={() => {
+          window.scrollTo({
+            top: 0,
+            behavior: "smooth",
+          });
+        }}
+      >
+        <div className="m-2">Scroll to Top</div>
+      </div>
     </div>
   );
 }

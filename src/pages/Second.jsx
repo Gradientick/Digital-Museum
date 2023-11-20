@@ -19,7 +19,7 @@ function Second({ content, setContent }) {
           className=" w-1/5 h-auto"
         />
         <h1 className=" font-medium">Show me the to-to be!</h1>
-        <p className=" w-3/6 text-justify">
+        <p className="w-3/5 text-justify md:w-4/5">
           In the year between 2004 to 2006. Fashion is what influenced every
           Filipino identity. They present themselves with these accumulated
           fashion trips that popularized within these years. Starting from the
@@ -34,7 +34,7 @@ function Second({ content, setContent }) {
           className=" w-2/5 h-auto"
         />
         <h1 className=" font-medium">Ako Si Ganito</h1>
-        <p className=" w-3/6 text-justify">
+        <p className="w-3/5 text-justify md:w-4/5">
           Philippine Tv shows completed the lifeline of every Filipino kid and
           adult. Just who are you among the encantadia gems keeper? That's the
           consistent question you will receive with your kalaro's. Encantadia
@@ -46,7 +46,7 @@ function Second({ content, setContent }) {
       <div className="flex flex-col items-center gap-6 m-6">
         <img src={iphone} alt="Photo of an iphone" className=" w-1/5 h-auto" />
         <h1 className=" font-medium">Build the Tech Culture</h1>
-        <p className=" w-3/6 text-justify">
+        <p className=" w-3/5 text-justify md:w-4/5">
           Cell phones became popular with Filipinos. It’s a way to make things
           easier and to kill time! Popular games from cell phones back then like
           Tower Bloxx and racing games like The Fast & Furious entertained us.

@@ -4,8 +4,8 @@ import comshop from "../images/comshop.jpg";
 function First({ content, setContent }) {
   return (
     <div className=" bg-whiteset">
-      <div className="flex flex-col items-center p-20 gap-1">
-        <h1 className="font-serif  text-5xl font-medium">
+      <div className="flex flex-col text-center items-center p-20 gap-1">
+        <h1 className="font-serif text-4xl md:text-5xl font-medium">
           Explore: 2007 - 2010
         </h1>
         <p className=" font-light text-lg">
@@ -13,8 +13,8 @@ function First({ content, setContent }) {
         </p>
       </div>
       <div className="flex flex-col gap-5">
-        <div className="flex justify-evenly bg-whiteset h-3/5">
-          <div className=" w-2/5 flex flex-col gap-7 ">
+        <div className="flex flex-col md:flex-row items-center justify-evenly bg-whiteset h-3/5">
+          <div className=" w-3/5 text-justify md:w-4/5 gap-7 ">
             <p className=" font-bold">Body Shape</p>
             <p>
               The traditional concerns about weight and appearance, Filipinos
@@ -25,7 +25,7 @@ function First({ content, setContent }) {
               Philippines
             </p>
           </div>
-          <div className="h-5/6 w-2/12 shadow-none justify-center items-center relative transition-all ">
+          <div className="h-5/6 w-8/12 md:w-2/12 shadow-none justify-center items-center relative">
             <img
               src={waxing}
               alt="image of brazilian waxing"
@@ -33,8 +33,8 @@ function First({ content, setContent }) {
             />
           </div>
         </div>
-        <div className="flex justify-evenly bg-whiteset h-3/5">
-          <div className=" w-2/5 flex flex-col gap-7 ">
+        <div className="flex flex-col md:flex-row items-center justify-evenly bg-whiteset h-3/5">
+          <div className=" w-3/5 text-justify md:w-4/5 gap-7 ">
             <p className=" font-bold"> Pinoy OPM</p>
             <p>
               Original Pilipino Music (OPM) experienced a resurgence during this
@@ -53,12 +53,12 @@ function First({ content, setContent }) {
               Sarah Geronimo.)
             </p>
           </div>
-          <div className="h-5/6 w-2/12 shadow-none justify-center items-center relative transition-all ">
+          <div className="h-5/6 w-8/12 md:w-2/12 shadow-none justify-center items-center relative ">
             <img src={gloc} alt="image of glock 9" className="h-full w-full" />
           </div>
         </div>
-        <div className="flex justify-evenly bg-whiteset h-3/5">
-          <div className=" w-2/5 flex flex-col gap-7 ">
+        <div className="flex flex-col md:flex-row items-center justify-evenly bg-whiteset h-3/5">
+          <div className=" w-3/5 text-justify md:w-4/5 gap-7 ">
             <p className=" font-bold">Cybercafes</p>
             <p>
               The use of the Internet in the Philippines grew rapidly during
@@ -70,7 +70,7 @@ function First({ content, setContent }) {
               users increasing from 50 million in 2006 to 75 million in 2010.
             </p>
           </div>
-          <div className="h-5/6 w-2/12 shadow-none justify-center items-center relative transition-all ">
+          <div className="h-5/6 w-8/12 md:w-2/12 shadow-none justify-center items-center relative">
             <img
               src={comshop}
               alt="image of comshop"
@@ -79,7 +79,7 @@ function First({ content, setContent }) {
           </div>
         </div>
         <div className="flex flex-col justify-center items-center m-9 gap-7">
-          <p className="w-4/5">
+          <p className="w-5/5 text-justify md:w-5/5">
             Over all, between 2007 and 2010, there was a boom era of fashion
             trends, the adoption of western culture, and the evolution of
             technology that shaped the world industry.

@@ -4,17 +4,17 @@ import phone from "../images/mobilephone.jpg";
 import sexbomb from "../images/sexbomb.png";
 function First({ content, setContent }) {
   return (
-    <div className=" bg-whiteset">
-      <div className="flex flex-col items-center p-20 gap-1">
-        <h1 className="font-serif  text-5xl font-medium">
+    <div className=" bg-whiteset w-full">
+      <div className="flex flex-col items-center p-16 gap-1 text-center">
+        <h1 className="font-serif text-2xl  md:text-5xl font-medium">
           Explore: 2000 - 2003
         </h1>
-        <p className=" font-light text-lg">
+        <p className=" font-light text-base md:text-lg">
           Unveiling the Early 2000s: A Journey into Pop Culture and Trends
         </p>
       </div>
       <div className="flex flex-col gap-5">
-        <div className="flex justify-evenly bg-whiteset h-3/5">
+        <div className="flex flex-col md:flex-row justify-evenly bg-whiteset h-3/5 items-center ">
           <div className="h-5/6 w-2/12 shadow-none justify-center items-center relative transition-all ">
             <img
               src={pacman}
@@ -22,7 +22,7 @@ function First({ content, setContent }) {
               className="h-full w-full "
             />
           </div>
-          <div className=" w-2/5 flex flex-col gap-7">
+          <div className="w-3/5 text-justify md:w-2/5 flex flex-col gap-7">
             <p>
               Step back in time to the years 2000 to 2003, a pivotal period when
               the world was on the cusp of a new millennium, and pop culture was
@@ -48,13 +48,13 @@ function First({ content, setContent }) {
             </p>
           </div>
         </div>
-        <div className="flex flex-col justify-center items-center m-9 gap-4">
+        <div className="flex flex-col justify-center items-center gap-4">
           <h1 className="font-serif  text-2xl font-medium">
             Introduction of Friendster
           </h1>
-          <div className="flex justify-evenly">
+          <div className="flex flex-col md:flex-row justify-evenly bg-whiteset h-3/5 items-center ">
             <img src={friendster} alt="image of Friendster" />
-            <div className=" w-2/5">
+            <div className=" w-3/5 text-justify">
               <p>
                 Friendster, the pioneering social networking platform that
                 emerged in the early 2000s, holds a special place in the hearts
@@ -73,13 +73,13 @@ function First({ content, setContent }) {
             </div>
           </div>
         </div>
-        <div className="flex flex-col justify-center items-center m-9 gap-7">
-          <h1 className="font-serif  text-2xl font-medium">
+        <div className="flex flex-col justify-center items-center  gap-7">
+          <h1 className="font-serif  text-2xl font-medium text-center">
             Increase In Mobile Phone Adoption Throughout The Philippines
           </h1>
-          <div className="flex justify-evenly">
+          <div className="flex flex-col md:flex-row justify-evenly bg-whiteset h-3/5 items-center gap-4">
             <img src={phone} alt="image of a phone" />
-            <p className=" w-2/5">
+            <p className=" md:w-2/5 w-3/5 text-justify">
               The 2000s witnessed a remarkable surge in mobile phone adoption
               throughout the Philippines, reshaping the way people communicated
               and connected in the archipelago. Mobile phones, once considered a
@@ -99,17 +99,17 @@ function First({ content, setContent }) {
             </p>
           </div>
         </div>
-        <div className="flex flex-col justify-center items-center m-9 gap-7">
+        <div className="flex flex-col justify-center items-center gap-7">
           <h1 className="font-serif  text-2xl font-medium">
             Fame of Sexbomb Girls
           </h1>
-          <div className="flex justify-evenly">
+          <div className="flex flex-col md:flex-row justify-evenly bg-whiteset h-3/5 items-center gap-4">
             <img
               src={sexbomb}
               alt="a photo of sexbomb girls"
               className="h-auto w-1/5"
             />
-            <p className=" w-2/5">
+            <p className="w-3/5 text-justify md:w-2/5">
               The SexBomb Girls were more than just a dance group; they were a
               cultural phenomenon that reshaped the landscape of Philippine
               popular culture during the early 2000s. With their captivating
@@ -128,8 +128,8 @@ function First({ content, setContent }) {
             </p>
           </div>
         </div>
-        <div className="flex flex-col justify-center items-center m-9 gap-7">
-          <p className="w-4/5">
+        <div className="flex flex-col justify-center items-center gap-7">
+          <p className="w-3/5 text-justify md:w-4/5">
             As we bid farewell to the years 2000 to 2003, we leave behind a
             trail of innovation, cultural shifts, and memorable figures that
             have indelibly marked this era. The early 2000s were a time of
