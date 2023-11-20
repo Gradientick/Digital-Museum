@@ -1,3 +1,6 @@
+import luis from "../creatorimages/luis.png";
+import ab from "../creatorimages/ab.png";
+import jp from "../creatorimages/jp.png";
 function CreatorsContent() {
   return (
     <div className="bg-whiteset h-4/5">
@@ -7,18 +10,13 @@ function CreatorsContent() {
       </div>
       <div className="flex justify-evenly m-5">
         <div className="h-5/6 w-2/12 justify-center items-center flex flex-col p-3 rounded-sm gap-2 transition-all shadow-2xl hover:cursor-pointer">
-          <img
-            src="src/creatorimages/luis.png"
-            alt="image of Luis Camus"
-            className="h-full w-full"
-          />
+          <img src={luis} alt="image of Luis Camus" className="h-full w-full" />
 
           <h1 className=" text-black text-2xl ">Luis Camus</h1>
-          {/* <h1 className=" text-black text-2xl ">Camus</h1> */}
         </div>
         <div className="h-5/6 w-2/12 justify-center items-center flex flex-col p-3 rounded-sm gap-2 transition-all shadow-2xl hover:cursor-pointer">
           <img
-            src="src/creatorimages/ab.png"
+            src={ab}
             alt="image of Abegail Clemente"
             className="h-full w-full "
           />
@@ -26,7 +24,7 @@ function CreatorsContent() {
         </div>
         <div className="h-5/6 w-2/12  justify-center items-center flex flex-col p-3 rounded-sm gap-2 transition-all shadow-2xl hover:cursor-pointer">
           <img
-            src="src/creatorimages/jp.png"
+            src={jp}
             alt="image of Jaypee Marquez"
             className="h-full w-full "
           />

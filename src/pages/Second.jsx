@@ -1,3 +1,6 @@
+import fashion from "../images/filipino-fashion.jpg";
+import encantadia from "../images/encantadia.jpg";
+import iphone from "../images/iphone.jpg";
 function Second({ content, setContent }) {
   return (
     <div className="bg-whiteset">
@@ -11,7 +14,7 @@ function Second({ content, setContent }) {
       </div>
       <div className="flex flex-col items-center gap-6 m-6">
         <img
-          src="src/images/filipino-fashion.jpg"
+          src={fashion}
           alt="an image of the jejemon gang"
           className=" w-1/5 h-auto"
         />
@@ -26,8 +29,8 @@ function Second({ content, setContent }) {
       </div>
       <div className="flex flex-col items-center gap-6 m-6">
         <img
-          src="src/images/Encantadia.jpg"
-          alt="an image of the jejemon gang"
+          src={encantadia}
+          alt="an image of the encantadia"
           className=" w-2/5 h-auto"
         />
         <h1 className=" font-medium">Ako Si Ganito</h1>
@@ -41,11 +44,7 @@ function Second({ content, setContent }) {
         </p>
       </div>
       <div className="flex flex-col items-center gap-6 m-6">
-        <img
-          src="src/images/iphone.jpg"
-          alt="Photo of an iphone"
-          className=" w-1/5 h-auto"
-        />
+        <img src={iphone} alt="Photo of an iphone" className=" w-1/5 h-auto" />
         <h1 className=" font-medium">Build the Tech Culture</h1>
         <p className=" w-3/6 text-justify">
           Cell phones became popular with Filipinos. It’s a way to make things

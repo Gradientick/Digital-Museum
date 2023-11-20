@@ -1,3 +1,6 @@
+import waxing from "../images/waxing.jpg";
+import gloc from "../images/opmartist.jpg";
+import comshop from "../images/comshop.jpg";
 function First({ content, setContent }) {
   return (
     <div className=" bg-whiteset">
@@ -24,7 +27,7 @@ function First({ content, setContent }) {
           </div>
           <div className="h-5/6 w-2/12 shadow-none justify-center items-center relative transition-all ">
             <img
-              src="src/images/waxing.jpg"
+              src={waxing}
               alt="image of brazilian waxing"
               className="h-full w-full "
             />
@@ -51,11 +54,7 @@ function First({ content, setContent }) {
             </p>
           </div>
           <div className="h-5/6 w-2/12 shadow-none justify-center items-center relative transition-all ">
-            <img
-              src="src/images/opmartist.jpg"
-              alt="image of glock 9"
-              className="h-full w-full"
-            />
+            <img src={gloc} alt="image of glock 9" className="h-full w-full" />
           </div>
         </div>
         <div className="flex justify-evenly bg-whiteset h-3/5">
@@ -73,7 +72,7 @@ function First({ content, setContent }) {
           </div>
           <div className="h-5/6 w-2/12 shadow-none justify-center items-center relative transition-all ">
             <img
-              src="src/images/comshop.jpg"
+              src={comshop}
               alt="image of comshop"
               className="h-full w-full "
             />

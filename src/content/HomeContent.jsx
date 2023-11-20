@@ -1,3 +1,6 @@
+import pacman from "../images/pacman.jpg";
+import jejegang from "../images/jejejeje-gang.jpg";
+import bpo from "../images/bpo2.jpg";
 function HomeContent({ content, setContent }) {
   return (
     <div className=" bg-whiteset h-4/5">
@@ -13,7 +16,7 @@ function HomeContent({ content, setContent }) {
           onClick={() => setContent("2000-2003")}
         >
           <img
-            src="src/images/pacman.jpg"
+            src={pacman}
             alt="image of Manny Pacquiao"
             className="h-full w-full brightness-50"
           />
@@ -26,7 +29,7 @@ function HomeContent({ content, setContent }) {
           onClick={() => setContent("2004-2006")}
         >
           <img
-            src="src/images/jejejeje-gang.jpg"
+            src={jejegang}
             alt="image of jeje gang"
             className="h-full brightness-50"
           />
@@ -39,7 +42,7 @@ function HomeContent({ content, setContent }) {
           onClick={() => setContent("2007-2010")}
         >
           <img
-            src="src/images/bpo2.jpg"
+            src={bpo}
             alt="image showing people working in the BPO industry"
             className="h-full brightness-50"
           />
