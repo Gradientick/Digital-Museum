@@ -25,14 +25,22 @@ function MenuButtons({ content, setContent }) {
       >
         Creators
       </div>
-      {/* <div
+      <div
         className="h-full flex justify-center items-center w-24 sideborder transition-all bg-none hover:bg-lavander cursor-pointer"
         onClick={() => {
-          setContent("References");
+          setContent("Present");
         }}
       >
-        References
-      </div> */}
+        Present
+      </div>
+      <div
+        className="h-full flex justify-center items-center w-24 sideborder transition-all bg-none hover:bg-lavander cursor-pointer"
+        onClick={() => {
+          setContent("Future");
+        }}
+      >
+        Future
+      </div>
     </div>
   );
 }
